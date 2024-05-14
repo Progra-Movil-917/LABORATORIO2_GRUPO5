@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_laboratorio2_grupo5/Paginas/formulario.dart';
+import 'package:flutter_laboratorio2_grupo5/Paginas/lista_de_tareas.dart';
+
+
 
 void main() {
   runApp(MyApp());
@@ -16,6 +20,7 @@ class MyApp extends StatelessWidget {
         '/cambio_monedas': (context) => CambioMonedasScreen(),
         '/lista_tareas': (context) => ListaTareasScreen(),
         '/podcast': (context) => PodcastScreen(),
+        '/formulario':(context) => FormularioPage(),
       },
     );
   }
@@ -92,11 +97,8 @@ class ListaTareasScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Lista de Tareas'),
-      ),
       body: Center(
-        child: Text('Pantalla de Lista de Tareas'),
+        child: PaginaListado(),
       ),
     );
   }
