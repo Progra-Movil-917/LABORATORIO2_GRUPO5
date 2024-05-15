@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material';
 import 'package:flutter_laboratorio2_grupo5/Paginas/formulario.dart';
 import 'package:flutter_laboratorio2_grupo5/Paginas/lista_de_tareas.dart';
 
